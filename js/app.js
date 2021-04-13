@@ -81,9 +81,9 @@ let totalEl=document.getElementById('total');
     
        let tdDataprice=document.createElement('td');
        trData.appendChild(tdDataprice);
-       tdDataprice.textContent=Employee.all[i].prices[i]
+       tdDataprice.textContent=price
 //        tdDataprice.textContent=price;
-   total+=Number(Employee.all[i].prices[i]);
+   total+=price
       }
       totalEl.innerHTML=` Total ${total}`;
   }

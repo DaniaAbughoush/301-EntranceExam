@@ -1,0 +1,68 @@
+body{
+    background-image: url(../images/bk.jpg);
+    background-attachment: fixed;
+   background-size: 100% 100%;
+}
+ 
+
+#myform{
+    width:200px;
+    height:100%;
+    margin:50px;
+    margin-left: 200px;
+    background-color: #00000096;
+
+}
+h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    padding:20px;
+    text-align: center;
+    background-color: #00000096;
+    color:#fff;
+}
+form{
+    padding: 30px;
+    color:#fff;
+    font-size: 20px;
+    
+}
+form legend{
+    font-size:30px;
+
+}
+button{
+    padding:5px 60px;
+}
+#result{
+    padding: 30px;
+    color:#fff;
+    background-color: #00000096;
+    width:700px;
+   
+    position:relative;
+    float: right;
+    top:-350px;
+    left:-60px;
+
+}
+
+table th,tr,td{
+    border: solid #fff 1px;
+    padding:5px;
+    padding-left:20px;
+    padding-right:20px;
+
+}
+
+table{
+    margin-left:70px;
+}
+
+#totals{
+    border:solid #fff 1px;
+    padding:10px 20px;
+    width:70px;
+    margin:10px;
+}
+

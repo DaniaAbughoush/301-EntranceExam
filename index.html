@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <h1>hr system</h1>
+    </header>
+    <main>
+        <section id="form">
+            <form id="myform">
+                <legend> Add Employee</legend>
+                <label for="name">Name</label>
+                <input type="text" name="name">
+<br><br>
+                <label for="email">Email</label>
+                <input type="email" name=email>
+<br><br>
+                <label for="dep">Department</label>
+                <select name="dep">
+                    <option value="Call-Center">Call-Center</option>
+                    <option value="Information-Technology">Information-Technology</option>
+                    <option value="Human-Resources">Human-Resources</option>
+                </select>
+                <br><br>
+                <button type="submit">submit</button>
+            </form>
+
+        </section>
+        <section id="result">
+            <table id="myResult">
+
+            </table>
+            <div id="totals">
+                <p id="total"></p>
+            </div>
+        </section>
+    </main>
+  <script src="./js/app.js"></script>  
+</body>
+</html>
